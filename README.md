@@ -1,5 +1,7 @@
 # CSCI-603, Object-Oriented Design Patterns
 
+![Java CI](https://github.com/CitadelCS/csci-603/workflows/Java%20CI/badge.svg)
+
 ## Overview
 
 This repository contains all examples and assignments for [CSCI 603, Object-Oriented Design Patterns](http://www.citadel.edu/root/ccs-courses/graduate#csci603) offered at The Citadel. 
