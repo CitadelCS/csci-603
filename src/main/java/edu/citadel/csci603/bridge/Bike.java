@@ -2,8 +2,8 @@ package edu.citadel.csci603.bridge;
 
 public class Bike extends Vehicle {
 
-    public Bike(Workshop workShop1, Workshop workShop2) {
-        super(workShop1, workShop2);
+    public Bike(Workshop... workshops) {
+        super(workshops);
     }
 
     @Override
