@@ -40,7 +40,8 @@ This repository has all coding examples and base classes for CSCI 603. Use this 
 
 ## Environment Setup (Faculty)
 
-1.) Install maven 3.6.0 and Java JDK 11. JDK located [here](https://openjdk.java.net/install/). If you have a Mac you can use `brew`.
+1.) Install maven 3.6.0 and Java JDK 11. JDK located [here](https://openjdk.java.net/install/). If you have a Mac you can use `brew`. If you don't want to install Maven 
+you can use the `./mvnw` wrapper command instead.
 
 ```bash
 brew install maven
@@ -55,7 +56,7 @@ git clone git@git.github.com:CitadelCS/csci-603.git
 3.) Build the project
 
 ```bash
-mvn clean install
+./mvnw clean install
 ```
 
 You should see a success if everything is set up correctly.
@@ -64,7 +65,8 @@ You should see a success if everything is set up correctly.
 
 ## Environment Setup (Students)
 
-1.) Install maven 3.6.0 and Java JDK 11. JDK located [here](https://openjdk.java.net/install/). If you have a Mac you can use `brew`.
+1.) Install maven 3.6.0 and Java JDK 11. JDK located [here](https://openjdk.java.net/install/). If you have a Mac you can use `brew`. If you don't want to install Maven 
+you can use the `./mvnw` wrapper command instead.
 
 ```bash
 brew install maven
@@ -89,7 +91,7 @@ git clone git@git.github.com:CitadelCS/csci-603-assignments-spring-2020-{yourUse
 5.) Build the project
 
 ```bash
-mvn clean install
+./mvnw clean install
 ```
 
 You should see a success if everything is set up correctly.
